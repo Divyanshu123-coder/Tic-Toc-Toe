@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyanshu123-coder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            color: #333;
+            font-size: 3em;
+        }
+        p {
+            color: #555;
+            font-size: 1.2em;
+        }
+        .download-btn {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .download-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the webpage of Divyanshu123-coder!</h1>
+        <p>Click the button below to download the Tic-Tac-Toe game code.</p>
+        <a href="tictactoe.cpp" class="download-btn" download>Download Tic-Tac-Toe Code</a>
+    </div>
+</body>
+</html>
